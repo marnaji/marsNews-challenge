@@ -8,7 +8,7 @@ I used Beautiful soup object to extract text elements for titles an previews the
     1. Stored each title and preview pair in one dictionary and gave each dictionary keys : title and preview
     2. Stored all the dictinarie ina Python list 
 
-<img src="/Images/dictionariesOutput.png" width="300" > 
+<img src="/Images/dictionariesOutput.png" width="500" > 
 
 
 ### Part2
@@ -25,6 +25,7 @@ The later steps data has been analyzed to answers few questions such as :
     5. About how many terrestrial (Earth) days exist in a Martian year? 
 
 Some of these question has been answered based on the plots that has been implemented and at the end the DataFrame has been exported to the csv format file. 
+
 <img src="/Images/monthsTemp.png" width="300" > 
 <img src="/Images/pressureMonths.png" width="300" >
 <img src="/Images/terrestorialdaysTemp.png" width="300" > 
