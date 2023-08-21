@@ -5,6 +5,7 @@ This Challenge inclued two section one is to scrape titles and previews and the 
 In this part of the challenge I scraped Titles and Previewes Text from Mars News. I used automated browsing to visit <a href="https://static.bc-edx.com/data/web/mars_news/index.html" target="_blank">Mars news site</a> 
 
 I used Beautiful soup object to extract text elements for titles an previews then I stored the scraping results in a Python data structure. 
+
     1. Stored each title and preview pair in one dictionary and gave each dictionary keys : title and preview
     2. Stored all the dictinarie ina Python list 
 
@@ -18,6 +19,7 @@ In this section I visited <a href ="https://static.bc-edx.com/data/web/mars_fact
 I used Beautiful soup objecr and used it to scrape the data in the HTML table, Then assembled the scraped data into a Pandas DataFrame. There are six coulmns as the same as the website in the DataFrame. The data type has been examine and changed to the proper data type based on the values so, the new data types are datetime, int , and float. 
 
 The later steps data has been analyzed to answers few questions such as :
+
     1. How many months exist on Mars?
     2. How many Martian (and not Earth) days worth of data exist in the scraped dataset?
     3. What are the coldest and the warmest months on Mars (at the location of Curiosity)? 
